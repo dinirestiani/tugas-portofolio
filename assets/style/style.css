@@ -1,0 +1,57 @@
+.body {
+    background-image: url('image/background.jpg'); /* Contoh: Gambar latar belakang */
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* atau metode lain sesuai kebutuhan Anda */
+
+}
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.profileimage {
+    max-width: 500px;
+    height: auto;
+}
+.home h2 {
+    color: black;
+}
+.home h4 {
+    color: black;
+    transform: translateY(10px);
+}
+.biodata {
+    padding-bottom: 300px;
+    padding-top: 250px;
+}
+.row {
+    padding: 0px 20px;
+}
+.tugas {
+    
+    padding-top: 100px;
+    padding-bottom: 250px;
+}
+
+.tugas {
+    @media (max-width: 767px) {
+        .card {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    }   
+}
+.footer {
+    padding-bottom: 20px;
+}
+.contact a { 
+    margin-top: 20px;
+    font-size: 20px;
+    padding-top: 50px;
+}
+.watermark {
+    padding-top: 20px;
+}
